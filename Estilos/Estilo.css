@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(248, 193, 248);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*
+comentário!!!
+*/
+
+
+
+nav{
+    border-top:2px solid red;
+    border-bottom: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+#divbusca{
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+a{
+    font-size: 20px;
+    text-decoration: ;
+    color: darkred;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#logotipo{
+    width: 50px;
+    height: 50px;
+}
+
+.sociais{
+    width: 200px;
+    height: 200;
+    border-radius: 50%;
+    margin: 0 10px; 
+}
+
+
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+header{
+    background-color:  rgb(226, 121, 226);
+    text-align: center;
+}
+footer{
+    background-color: rgb(226, 121, 226);
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    top: 555px;
+    text-align: center;
+}
+h1,h2{ 
+    color: rgb(0, 73, 0);
+}
+
+h1{
+    font-size: 40pt;
+    
+}
+
+aside{
+    position: fixed;
+    left: 0;
+    width: 400px;
+    border-right: 4px dashed red;
+    height: 100vh;
+    padding: 15px;
+    
+}
+
+section{
+    width: calc(200vw - 300px);
+    margin-left: 450    px;
+}
